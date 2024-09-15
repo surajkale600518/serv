@@ -20,7 +20,7 @@ app.get('/home',(req,res)=>{
     })
 });
 
-app.listen(PORT,()=>{
-    console.log(`Server is Start... http://127.0.0.1:${PORT}`)
-});
+app.listen(PORT)
+console.log(`Server is Start... http://127.0.0.1:${PORT}`)
+   
 
